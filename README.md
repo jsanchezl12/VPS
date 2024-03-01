@@ -5,7 +5,7 @@ Windows
 https://dashboard.ngrok.com/cloud-edge/endpoints
 
 Instalar Docker
-
+```
 sudo apt update
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -14,3 +14,4 @@ sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io
 sudo docker --version
 sudo docker run hello-world
+```
